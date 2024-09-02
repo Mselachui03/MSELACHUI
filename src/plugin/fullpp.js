@@ -13,7 +13,7 @@ const setProfilePicture = async (m, gss) => {
   const validCommands = ['setppfull', 'setfullprofilepic', 'fullpp', 'setppbot'];
 
   if (validCommands.includes(cmd)) {
-    if (!isCreator) return m.reply("*📛 THIS IS AN OWNER COMMAND*");
+    if (!isCreator) return m.reply("*🐯 THIS IS AN OWNER COMMAND*");
     if (!m.quoted || m.quoted.mtype !== 'imageMessage') {
       return m.reply(`Send/Reply with an image to set your profile picture ${prefix + cmd}`);
     }
