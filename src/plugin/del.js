@@ -12,7 +12,7 @@ const deleteMessage = async (m, gss) => {
 
     if (validCommands.includes(cmd)) {
       if (!isCreator) {
-        return m.reply("*📛 THIS IS AN OWNER COMMAND*");
+        return m.reply("*🐯 THIS IS AN OWNER COMMAND*");
       }
 
       if (!m.quoted) {
