@@ -121,7 +121,7 @@ const mistral = async (m, Matrix) => {
                                     text: answer
                                 }),
                                 footer: proto.Message.InteractiveMessage.Footer.create({
-                                    text: "> © Powered By Ethix-MD"
+                                    text: "> © Powered By MSELA-CHUI-V3"
                                 }),
                                 header: proto.Message.InteractiveMessage.Header.create({
                                     title: "",
