@@ -1,142 +1,99 @@
----
-
-# Ethix-MD-V2
-
+# MSELA-CHUI-V3
+   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-  <a href="https://github.com/Ethix-Xsid"><img src="http://readme-typing-svg.herokuapp.com?color=red&center=true&vCenter=true&multiline=false&lines=Ethix-MD-+v2+MultiDevice;Developed+by+Ethix~Xsid;Give+star+and+forks+this+Repo+🌟" alt="EthixReadme"></a>
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ MSELA_+CHUI-+V3★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+MSELA+CHUI;RELEASED+DATE+23%2AUG8%2F2024." alt="Typing SVG" /></a>
+ </p>
+<p align="center">
+<img src="https://telegra.ph/file/4f1ff5e2a71624d564944.jpg"/> 
+<p align="center"><img src="https://profile-counter.glitch.me/{Mselachui03}/count.svg" alt="Mselachui03 :: Visitor's Count" /></p>
+<p align="center">
+<a href="https://github.com/Mselachui03/followers"><img title="Followers" src="https://img.shields.io/github/followers/Mselachui03?color=red&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Mselachui03/MSELA-CHUI-V3?color=blue&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Mselachui03/MSELA-CHUI-V3?color=red&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA_CHUI-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Mselachui03/MSELA-CHUI-V3?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/"><img title="Size" src="https://img.shields.io/github/repo-size/Mselachui03/MSELA-CHUI-V3?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMselachui03%2Msela_Chui-Md&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
+<p align='center'>
+    </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<p align="center">
+
+
+
+
+### MR_MSELACHUI 🐯
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Hello+am+Mselachui+Tech..&hearts;++;Self-taught+Back-End+Developer,;From+Tanzania🇹🇿,;My+Hobby+Is+Coding,;Active+Learner/Researcher,;Love+to+learn+new+stuffs..🖥️💻">
+  </a>
 </p>
 
-## 🚀 Getting Started
 
-To get started with Ethix-MD-V2, follow these steps:
 
-### 1. Fork This Repository
+ ## MSELA-CHUI-V3 Deployment Methods
 
-Start by forking this repository to your own GitHub account. Click the button below to fork:
+### 1. FORK THIS REPO
 
-<a href='https://github.com/Ethix-Xsid/Ethix-MD-V2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/Mselachui03/MSELA-CHUI-V3/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
-### 2. Get Session ID via Pair Code
+### 2. GET SESSION ID HERE
 
-You'll need a session ID to run the bot. Click the button below to obtain your session ID:
+### SERVER 1
+ 
+<a href="https://chui-md.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
-<a href='https://negative-jacki-goutammallick516-35fc1e14.koyeb.app' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-black?style=for-the-badge&logo=opencv&logoColor=red'/></a>
+<a href="https://chui-md.onrender.com/qr"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
 
-## 🚀 Deployment Options
+###TEST PAIRING CODE
+ <a href="https://princebotzsession.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
+### DEPLOY ON HEROKU
 
-You can deploy the Ethix-MD-V2 bot using two methods: **Heroku** or **Termux**. Choose the method that suits you best.
+1. Now deploy.
+    <br>
+    <a href='https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/MSELA-CHUI-V3' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-### Deploy to Heroku
+    <h2 align="center"> ⚠️ NOTE  </h2>
+## MSELA-CHUI-V3 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
 
-Deploying the bot to Heroku is simple and straightforward. Follow these steps:
+## ```Connect With Me```
+<img src="http://4.bp.blogspot.com/-XFYyg7bmXe0/UIU9Lt2jaNI/AAAAAAAABw8/UgxWDUoBkaw/s1600/tumblr_mbi70xxizM1r922azo1_500_large.gif">
+<p align="center">
+<a href="https://wa.me/260774358600"><img src="https://img.shields.io/badge/Contact Chui-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q"><img src="https://img.shields.io/badge/Join Official channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-1. **Create a Heroku Account:**
 
-   If you don't already have a Heroku account, create one by clicking the button below:
+<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-   <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=red'/></a>
+* [🧑‍💻 Follow MSELA-CHUI-V2 Whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q)
 
-2. **Deploy the Bot:**
 
-   Once your Heroku account is ready, deploy the bot by clicking the button below:
+* [✅ Join Public Group ⚡](https://chat.whatsapp.com/KStfBpcFDOi154eVtrz6n1)
 
-   <a href='https://heroku.com/deploy' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=red'/></a>
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+  
 
-### Deploy to Termux
+- *MSELA-CHUI-V2 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *In that case, I'm not responsible for banning your account.*
+- *Use MSELA-CHUI-V3 at your own risk by keeping this warning in mind.*
+  
+  #### ```MSELA CHUI PROFILE VIEWS 🐯```
+![Visitor Count](https://profile-counter.glitch.me/Mselachui03/count.svg)
 
-You can also deploy the bot directly on your Android device using Termux. Here’s how:
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-1. **Install Termux:**
 
-   If you don't have Termux installed, download it from the Google Play Store or F-Droid.
+## THANKS = MY SELF 🥱
 
-   - [Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
-   - [F-Droid](https://f-droid.org/en/packages/com.termux/)
+## Support
 
-2. **Update and Install Required Packages:**
+SUPPORT CHANNEL: <a href= "(https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q)"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-   Open Termux and run the following commands to update packages and install required dependencies:
 
-   ```bash
-   pkg update && pkg upgrade
-   pkg install git nodejs -y
-   ```
+### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/Mselachui03)
+<b>Version -> 2.0.0</b>
 
-3. **Clone the Repository:**
-
-   Clone the forked repository using the following command:
-
-   ```bash
-   git clone https://github.com/Ethix-Xsid/Ethix-MD-V2.git
-   ```
-
-4. **Navigate to the Project Directory:**
-
-   Change into the project directory:
-
-   ```bash
-   cd Ethix-MD
-   ```
-
-5. **Set the `SESSION_ID` in the `.env` File:**
-
-   To set the `SESSION_ID`, you need to create or edit the `.env` file in the project directory.
-
-   - **Create/Edit the `.env` File:**
-
-     Open (or create) the `.env` file using a text editor like `nano`:
-
-     ```bash
-     nano .env
-     ```
-
-   - **Add the `SESSION_ID` Variable:**
-
-     Add the following line to the `.env` file:
-
-     ```bash
-     SESSION_ID='your-session-id-here'
-     ```
-
-     Replace `'your-session-id-here'` with the actual session ID you obtained.
-
-   - **Save and Exit:**
-
-     If using `nano`, save the changes by pressing `CTRL + X`, then `Y`, and then `Enter` to exit.
-
-6. **Install Node Modules:**
-
-   Install the required Node.js modules:
-
-   ```bash
-   npm install
-   ```
-
-7. **Start the Bot:**
-
-   Finally, start the bot with the following command:
-
-   ```bash
-   node .
-   ```
-
-   Make sure to keep Termux open to maintain the bot's operation.
-
-## 🌐 Join WhatsApp Group, Channel, and Contact the Owner
-
-Stay connected with the latest updates and community by joining our official WhatsApp group and channel. You can also contact the owner directly.
-
-- **Owner WhatsApp Number:** +919142294671
-  - *Note:* Please save the owner's number in your contacts before sending a message.
-
-- **WhatsApp Channel:** [Join Here](https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S)
-
-- **WhatsApp Group:** [Join Here](https://chat.whatsapp.com/E3PWxdvLc7ZCp1ExOCkEGp)
-
-## ⚠️ Reminder
-
-- **Disclaimer:** This bot is not affiliated with `WhatsApp Inc.`. Use it at your own risk.
-- Misusing the bot may result in your `WhatsApp` account being banned. Note that you can only unban your account once.
-- I am not responsible for any bans or misuse of the bot. Please keep this warning in mind before proceeding.
-
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
