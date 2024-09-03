@@ -204,7 +204,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -337,7 +337,7 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `MSELA-CHUI-V3`,
+                    displayName: `Ethix-MD`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'Ethix-MD'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
@@ -347,7 +347,7 @@ let mode = ethix.public ? 'public' : 'private';
             }
         };
        let { key } = await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -355,7 +355,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -386,7 +386,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -394,7 +394,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -427,7 +427,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
     mentionedJid: [m.sender], 
@@ -452,7 +452,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -460,7 +460,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -491,7 +491,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -499,7 +499,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -527,7 +527,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -535,7 +535,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -555,7 +555,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -563,7 +563,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -586,7 +586,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚃𝚝𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -594,7 +594,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -618,7 +618,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/mselachui.jpg'), 
+  image: fs.readFileSync('./src/ethix.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -626,7 +626,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "MSELA-CHUI-V3",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
@@ -644,5 +644,29 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿2
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿3
-┃✰
+┃✰ ${prefix}𝙴𝙱𝙸𝙽𝙰𝚁𝚈
+┃✰ ${prefix}𝙳𝙱𝙸𝙽𝙰𝚁𝚈
+┃✰ ${prefix}𝙴𝙼𝙾𝙹𝙸𝙼𝙸𝚇
+┃✰ ${prefix}𝙼𝙿3
+╰━━━━━━━━━━━━━━━⪼
+     `
+     await Matrix.sendMessage(m.from, {
+  image: fs.readFileSync('./src/ethix.jpg'), 
+  caption: str, 
+  contextInfo: {
+                  mentionedJid: [m.sender], 
+                  forwardingScore: 999,
+                  isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterName: "Ethix-MD",
+                  serverMessageId: 143
+                }
+              }
+}, {
+  quoted: m
+});
+}
+};
 
+export default test;
