@@ -1,7 +1,6 @@
 import moment from 'moment-timezone';
 import fs from 'fs';
 import os from 'os';
-
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
 
@@ -73,7 +72,7 @@ const test = async (m, Matrix) => {
   const prefix = /^[\\/!#.]/gi.test(m.body) ? m.body.match(/^[\\/!#.]/gi)[0] : '.';
         const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
         let ethix = {
-    public: true // or false
+    public: true 
 };
 
 let mode = ethix.public ? 'public' : 'private';
@@ -90,19 +89,18 @@ let mode = ethix.public ? 'public' : 'private';
           },
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
-              text: `╭─────────────━┈
-│ •THIS IS LAZACK MD VERSION 03 ⚽
-│ •THIS BOT IS MADE TO BE USED 
-│ •IN WHATSAPP ONLY 🥰 ENJOY USING IT     
-│ •NEED CONTACT THE OWNER +255734980103
-│ •ALL SPECIAL TO TANZANIA DEVELOPERS 🤗
-│ •ALSO THANKS TO MANUAL OFFICIAL.
-| • USE ANY PREFIX BRO 🔥\n\n
-| • Football and coding is my hobby ⚽🕸️
-╰─────────────━┈ `
+              text: `╭─────────────━┈⊷
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ᴇᴛʜɪx-ᴍᴅ*
+│📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
+│👨‍💻 ᴏᴡɴᴇʀ : *ᴇᴛʜɪx xsɪᴅ*      
+│👤 ɴᴜᴍʙᴇʀ: 919142294671
+│📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
+│🛡 ᴍᴏᴅᴇ: *${mode}*
+│💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
+╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "LAZACK MD VERSION 03"
+              text: "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -114,71 +112,85 @@ let mode = ethix.public ? 'public' : 'private';
             nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
               buttons: [
                 {
+          "name": "quick_reply",
+          "buttonParamsJson": JSON.stringify({
+            display_text: "ALIVE",
+            id: `.alive`
+          })
+        },
+        {
+          "name": "quick_reply",
+          "buttonParamsJson": JSON.stringify({
+            display_text: "PING",
+            id: `.ping`
+          })
+        },
+                {
                   "name": "single_select",
-                  "buttonParamsJson": `{"title":"🕸️𝚳𝚵𝚴𝐔",
+                  "buttonParamsJson": `{"title":"🔖𝚻𝚫𝚸 𝐅𝚯𝚪 𝚯𝚸𝚵𝚴 𝚳𝚵𝚴𝐔",
                  "sections":
                    [{
-                    "title":"LAZACK MD MENU LIST ⚽",
-                    "highlight_label":"MENU LIST",
+                    "title":"😎 𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
+                    "highlight_label":"🤩 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
                     "rows":[
                       {
                        "header":"",
-                       "title":"ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"⚽ MENU",
+                       "title":"🔰 ᴀʟʟ ᴍᴇɴᴜ",
+                       "description":"🎨𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈🎨",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
-                        "title":"ᴅᴏᴡɴʟᴀᴏᴅᴇʀ ᴍᴇɴᴜ",
-                        "description":"DOWNLOAD MENU ⬇️",
+                        "title":"⬇️ ᴅᴏᴡɴʟᴀᴏᴅᴇʀ ᴍᴇɴᴜ",
+                        "description":"📂𝐒𝚮𝚯𝐖 𝚫𝐋𝐋 𝐃𝚯𝐖𝚴𝐋𝚯𝚫𝐃 𝐅𝚵𝚫𝚻𝐔𝚪𝚵𝐒🗂",
                         "id":"Downloader Menu"
                       },
                       {
                         "header":"",
-                        "title":"ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
-                        "description":"GROUP FEATURES ONLY 🧑‍🧑‍🧒‍🧒",
+                        "title":"👨‍👨‍👧‍👧ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
+                        "description":"🥵𝐅𝚵𝚫𝚻𝐔𝚪𝚵 𝚻𝚮𝚫𝚻 𝚫𝚪𝚵 𝚯𝚴𝐋𝐘 𝚫𝛁𝚰𝐋𝚫𝚩𝐋𝚵 𝐅𝚯𝚪 𝐆𝚪𝚯𝐔𝚸🥵",
                         "id":"Group Menu"
                       },
                       {
                         "header":"",
-                        "title":"ᴛᴏᴏʟ ᴍᴇɴᴜ",
-                        "description":"TOOL MENU 📲",
+                        "title":"👨‍🔧 ᴛᴏᴏʟ ᴍᴇɴᴜ",
+                        "description":"🛠 𝐒𝚮𝚯𝐖 𝚳𝚵 𝚻𝚯𝚯𝐋 𝚳𝚵𝚴𝐔",
                         "id":"Tool Menu"
                       },
                       {
                         "header":"",
-                        "title":"ᴍᴀɪɴ ᴍᴇɴᴜ",
-                        "description":"LAZACK MD MAIN COMMANDS 🏟️",
+                        "title":"🗿 ᴍᴀɪɴ ᴍᴇɴᴜ",
+                        "description":"📪 𝚩𝚯𝚻 𝚳𝚫𝚰𝚴 𝐂𝚯𝚳𝚳𝚫𝚴𝐃𝐒🗳",
                         "id":"Main Menu"
                       },
                      {
                         "header":"",
-                        "title":"ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
-                        "description":"LAZACK MD OWNER CMD 😎",
+                        "title":"👨‍💻 ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
+                        "description":"😎𝐅𝚵𝚫𝚻𝐔𝚪𝚵 𝚻𝚮𝚫𝚻 𝚫𝚪𝚵 𝚯𝚴𝐋𝐘 𝐅𝚯𝚪 𝚳𝐘 𝚮𝚫𝚴𝐃𝐒𝚯𝚳𝚵 𝚯𝐖𝚴𝚵𝚪👨‍💼",
                         "id":"Owner Menu"
                       },
                       {
                         "header":"",
-                        "title":"ᴀɪ ᴍᴇɴᴜ",
-                        "description":"AI MENU ❄️",
+                        "title":"✨ ᴀɪ ᴍᴇɴᴜ",
+                        "description":"💫 𝐒𝚮𝚯𝐖 𝚳𝚵 𝚫𝚰 𝚳𝚵𝚴𝐔 🎇",
                         "id":"Ai Menu"
                       },
                       {
                         "header":"",
-                        "title":"sᴇᴀʀᴄʜ ᴍᴇɴᴜ",
-                        "description":"SEARCH MENU CMD 🚨",
+                        "title":"🔍sᴇᴀʀᴄʜ ᴍᴇɴᴜ🔎",
+                        "description":"♂️ 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐒𝚵𝚫𝚪𝐂𝚮 𝚳𝚵𝚴𝐔",
                         "id":"Search Menu"
                       },
                       {
                         "header":"",
                         "title":"🧚‍♂️ sᴛᴀʟᴋ ᴍᴇɴᴜ",
-                        "description":"𝐒𝚻𝚫𝐋𝐊 𝚳𝚵𝚴𝐔",
+                        "description":"👨‍💼 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐒𝚻𝚫𝐋𝐊 𝚳𝚵𝚴𝐔🪆",
                         "id":"Stalk Menu"
                       },
                       {
                         "header":"",
-                        "title":"𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚎𝚛 𝚖𝚎𝚗𝚞",
-                        "description":"CONVERTING MENU ♻️",
+                        "title":"🥏 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚎𝚛 𝚖𝚎𝚗𝚞",
+                        "description":"🛷 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐂𝚯𝚴𝛁𝚵𝚪𝚻𝚵𝚪 𝚳𝚵𝚴𝐔",
                         "id":"Converter Menu"
                       }
                     ]}
@@ -192,7 +204,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "LAZACK-MD",
+                  newsletterName: "Ethix-MD",
                   serverMessageId: 143
                 }
               }
