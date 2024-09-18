@@ -47,8 +47,7 @@
 
 <a href="https://chui-md.onrender.com/qr"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
 
-###TEST PAIRING CODE
- <a href="https://princebotzsession.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
+
 ### DEPLOY ON HEROKU
 
 1. Now deploy.
